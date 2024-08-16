@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex; /* Используем Flexbox */
+    justify-content: space-between; /* Распределяем пространство между блоками */
+    padding: 20px; /* Отступы вокруг контейнера */
+}
+
+.box {
+    background-color: #4CAF50; /* Цвет фона для блоков */
+    color: white; /* Цвет текста */
+    padding: 30px; /* Отступы внутри блоков */
+    width: 27%; /* Ширина блоков */
+    text-align: left; /* Выравнивание текста по центру */
+    border-radius: 10px; /* Сглаживание углов */
+}
+
+.image {
+    max-width: 100%; /* Ограничиваем ширину изображения */
+    height: auto; /* Сохраняем пропорции изображения */
+    border-radius: 5px; /* Сглаживание углов изображения */
+}
